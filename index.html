@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="mainCont" id="mainContain">
+      <p>To Do List</p>
+      <div class="outerCont" id="outerCont">
+        <div class="taskOuterBox" id="outerBox1">
+          <div class="tasksCont" id="taskCont1">
+            <div class="checkBox">
+              <input type="checkbox" id="checkBox1" />
+            </div>
+            <div class="taskName">T1</div>
+            <div class="completionStatus"></div>
+          </div>
+          <div class="buttonCont"><button id="button1">Remove</button></div>
+        </div>
+
+        <div class="taskOuterBox" id="outerBox2">
+          <div class="tasksCont" id="taskCont2">
+            <div class="checkBox">
+              <input type="checkbox" id="checkBox2" />
+            </div>
+            <div class="taskName">T2</div>
+            <div class="completionStatus"></div>
+          </div>
+          <div class="buttonCont"><button id="button2">Remove</button></div>
+        </div>
+
+        <div class="taskOuterBox" id="outerBox3">
+          <div class="tasksCont" id="taskCont3">
+            <div class="checkBox">
+              <input type="checkbox" id="checkBox3" />
+            </div>
+            <div class="taskName">T3</div>
+            <div class="completionStatus"></div>
+          </div>
+          <div class="buttonCont"><button id="button3">Remove</button></div>
+        </div>
+      </div>
+      <div class="addNewTask">
+        <button onclick="newTaskAddition()">Add a new Task</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
